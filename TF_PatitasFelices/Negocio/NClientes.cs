@@ -9,6 +9,6 @@ namespace Negocio
     class NClientes
     {
         /*abc123*/
-        /*holaaaaa*/
+        /*hola*/
     }
 }
