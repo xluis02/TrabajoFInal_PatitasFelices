@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TF_PatitasFelices",
+    "\\TF_PatitasFelices\\Negocio",
+    "\\TF_PatitasFelices\\Presentacion"
   ],
-  "SelectedNode": "\\TF_PatitasFelices.sln",
+  "SelectedNode": "\\TF_PatitasFelices\\Negocio\\NClientes.cs",
   "PreviewInSolutionExplorer": false
 }
