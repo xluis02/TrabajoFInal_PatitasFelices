@@ -12,6 +12,6 @@ namespace Negocio
         /*hola*/
 
 
-
+        /*Mañana no hay clases*/
     }
 }
