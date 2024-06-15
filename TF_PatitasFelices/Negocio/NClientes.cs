@@ -11,6 +11,7 @@ namespace Negocio
         /*abc123*/
         /*hola*/
 
-        /* Guini Poh */
+
+        /*Mañana no hay clases*/
     }
 }
