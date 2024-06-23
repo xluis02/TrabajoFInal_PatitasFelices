@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd4693ccd7264e70930fde7ba7dda47d" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelPF.Citas" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.Dueños" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.HistorialConsultas" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.Mascotas" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.Sedes" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.Usuarios" Width="1.5" PointX="1.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelPF.Veterinarios" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <AssociationConnector Association="ModelPF.FK__Citas__MascotaId__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Citas__SedeId__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Citas__Veterinar__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Dueños__UsuarioI__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Mascotas__DueñoI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Historial__Masco__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Historial__Veter__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Mascotas__SedeId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelPF.FK__Veterinar__SedeI__4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
