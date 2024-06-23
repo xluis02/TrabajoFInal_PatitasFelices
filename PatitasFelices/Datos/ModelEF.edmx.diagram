@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c3a9ee081884b5eb83a6fb1cc5bea34" Name="Diagram1">
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.Citas" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.Dueños" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.HistorialConsultas" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.Mascotas" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.Sedes" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatitasFelicesDBModel.Veterinarios" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Citas__MascotaId__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Citas__SedeId__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Citas__Veterinar__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Mascotas__DueñoI__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Historial__Masco__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Historial__Veter__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Mascotas__SedeId__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="PatitasFelicesDBModel.FK__Veterinar__SedeI__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
